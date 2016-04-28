@@ -1,2 +1,2 @@
 # magicmanjoey.github.io
-Website
+Contains official website for THE REPUBLIC OF DIGNITAS
