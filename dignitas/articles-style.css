@@ -21,6 +21,7 @@ hr.page-div:before { /* Not really supposed to work, but does */
     font-family: 'Times New Roman', Times, serif;
     text-decoration: underline;
     color: blue;
+    text-align: center;
 }
 
 .links:visited {
