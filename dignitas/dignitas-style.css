@@ -53,6 +53,7 @@
 
 #title {
     display: inline;
+    white-space: nowrap;
     font-size: 4em;
     font-family: 'UnifrakturMaguntia', cursive, sans-serif;
 }
