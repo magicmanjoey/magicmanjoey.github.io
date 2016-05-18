@@ -1,0 +1,41 @@
+.seasonsbig {
+    border: 5px solid #333447;
+    border-radius: 20px;
+    margin: 0;
+}
+
+.seasonssmall {
+    border-radius: 10px;
+    box-shadow: 0 0 0 3px #333447;
+}
+
+.dark-blue {
+    background-color: #66D7FD;
+}
+
+.winter {
+    background-color: #D6D6D6;
+}
+
+.spring {
+	background-color: #54CC14;
+}
+
+.summer {
+	background-color: #FFFC19;
+}
+
+.autumn {
+	background-color: #CC4A14;
+}
+
+.indent {
+	text-indent: 3em;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.center {
+    text-align: center;
+}
