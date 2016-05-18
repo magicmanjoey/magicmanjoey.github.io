@@ -1,2 +1,4 @@
 # magicmanjoey.github.io
-Contains official website for THE REPUBLIC OF DIGNITAS
+Contains website for:
+    The Republic of Dignitas
+    The Seasons
