@@ -39,3 +39,19 @@
 .center {
     text-align: center;
 }
+
+.winter:hover {
+    background-color: #AAAAAA;
+}
+
+.spring:hover {
+    background-color: #3DA108;
+}
+
+.summer:hover {
+    background-color: #D3D000;
+}
+
+.autumn:hover {
+    background-color: #A73504; 
+}
