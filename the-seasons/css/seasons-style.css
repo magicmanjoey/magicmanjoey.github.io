@@ -9,6 +9,10 @@
     box-shadow: 0 0 0 3px #333447;
 }
 
+.normalback {
+    background-color: #C7F1FF;
+}
+
 .dark-blue {
     background-color: #66D7FD;
 }
@@ -54,4 +58,67 @@
 
 .autumn:hover {
     background-color: #A73504; 
+}
+
+/*Winter page*/
+body.winterback {
+    background-color: #D6D6D6;
+}
+
+.darkwinter {
+    background-color: #AAAAAA;
+}
+
+.lightwinter {
+    background-color: #FFFFFF;
+}
+
+.winterhomelink {
+    background-color: #AAAAAA;
+}
+
+.winterhomelink:hover {
+    background-color: #7D7C7C;
+}
+
+/*Spring page*/
+body.springback {
+    background-color: #54CC14;
+}
+
+.darkspring {
+    background-color: #3DA108;
+}
+
+.lightspring {
+    background-color: #73D53E;
+}
+
+.springhomelink {
+    background-color: #3DA108;
+}
+
+.springhomelink:hover {
+    background-color: #2C7E00;
+}
+
+/*Autumn page*/
+body.autumnback {
+    background-color: #CC4A14;
+}
+
+.darkautumn {
+    background-color: #A73504;
+}
+
+.lightautumn {
+    background-color: #E86E3A;
+}
+
+.autumnhomelink {
+    background-color: #A73504;
+}
+
+.autumnhomelink:hover {
+    background-color: #7E2600;
 }
