@@ -102,6 +102,27 @@ body.springback {
     background-color: #2C7E00;
 }
 
+/*Summer page*/
+body.summerback {
+    background-color: #FFFC19;
+}
+
+.darksummer {
+    background-color: #D3D000;
+}
+
+.lightsummer {
+    background-color: #FFFD46;
+}
+
+.summerhomelink {
+    background-color: #D3D000;
+}
+
+.summerhomelink:hover {
+    background-color: #A6A400;
+}
+
 /*Autumn page*/
 body.autumnback {
     background-color: #CC4A14;
