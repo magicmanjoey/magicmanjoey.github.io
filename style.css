@@ -1,0 +1,22 @@
+body {
+    background-color: #000000;
+}
+
+* {
+    color: #00FF00;
+    font-family: "Courier New", Courier, "Lucidia Console", Monaco, monospace;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1.7em;
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: circle;
+}
