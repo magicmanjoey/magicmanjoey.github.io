@@ -1,4 +1,4 @@
 # magicmanjoey.github.io
-Contains website for:
-    The Republic of Dignitas
+Contains websites for:
+    The Republic of Dignitas,
     The Seasons
