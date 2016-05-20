@@ -1,7 +1,6 @@
 .seasonsbig {
-    border: 5px solid #333447;
     border-radius: 20px;
-    margin: 0;
+    box-shadow: 0 0 0 5px #333447;
 }
 
 .seasonssmall {
