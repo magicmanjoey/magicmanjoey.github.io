@@ -50,17 +50,17 @@
 
 .spring:hover {
     background-color: #3DA108;
-    cursor: url('http://www.i2clipart.com/cliparts/9/c/3/6/clipart-flower-six-red-petals-black-outline-green-leaf-9c36.png'), default;
+    cursor: url('http://icons.iconarchive.com/icons/fasticon/nature/48/Pink-Flower-icon.png'), default;
 }
 
 .summer:hover {
     background-color: #D3D000;
-    cursor: url('http://www.iconsdb.com/icons/preview/orange/sun-3-xxl.png'), default;
+    cursor: url('http://www.iconsplace.com/icons/preview/orange/sun-48.png'), default;
 }
 
 .autumn:hover {
     background-color: #A73504; 
-    cursor: url('http://icons.iconarchive.com/icons/fasticon/nature/128/Drought-Leaf-icon.png'), default;
+    cursor: url('http://findicons.com/files/icons/1929/autumn/48/mapleleaf.png'), default;
 }
 
 /*Winter page*/
@@ -104,7 +104,7 @@ body.springback {
 
 .springhomelink:hover {
     background-color: #2C7E00;
-    cursor: url('http://www.i2clipart.com/cliparts/9/c/3/6/clipart-flower-six-red-petals-black-outline-green-leaf-9c36.png'), default;
+    cursor: url('http://icons.iconarchive.com/icons/fasticon/nature/48/Pink-Flower-icon.png'), default;
 }
 
 /*Summer page*/
@@ -126,7 +126,7 @@ body.summerback {
 
 .summerhomelink:hover {
     background-color: #A6A400;
-    cursor: url('http://www.iconsdb.com/icons/preview/orange/sun-3-xxl.png'), default;
+    cursor: url('http://www.iconsplace.com/icons/preview/orange/sun-48.png'), default;
 }
 
 /*Autumn page*/
@@ -148,5 +148,5 @@ body.autumnback {
 
 .autumnhomelink:hover {
     background-color: #7E2600;
-    cursor: url('http://icons.iconarchive.com/icons/fasticon/nature/128/Drought-Leaf-icon.png'), default;
+    cursor: url('http://findicons.com/files/icons/1929/autumn/48/mapleleaf.png'), default;
 }
