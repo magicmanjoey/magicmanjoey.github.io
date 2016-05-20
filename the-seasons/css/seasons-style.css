@@ -45,18 +45,22 @@
 
 .winter:hover {
     background-color: #AAAAAA;
+    cursor: url('http://www.cloud-migrators.com/joomla/images/cloud.png'), default;
 }
 
 .spring:hover {
     background-color: #3DA108;
+    cursor: url('http://www.i2clipart.com/cliparts/9/c/3/6/clipart-flower-six-red-petals-black-outline-green-leaf-9c36.png'), default;
 }
 
 .summer:hover {
     background-color: #D3D000;
+    cursor: url('http://www.iconsplace.com/icons/preview/orange/sun-256.png'), default;
 }
 
 .autumn:hover {
     background-color: #A73504; 
+    cursor: url('http://icons.iconarchive.com/icons/fasticon/nature/128/Drought-Leaf-icon.png'), default;
 }
 
 /*Winter page*/
@@ -78,6 +82,7 @@ body.winterback {
 
 .winterhomelink:hover {
     background-color: #7D7C7C;
+    cursor: url('http://www.cloud-migrators.com/joomla/images/cloud.png'), default;
 }
 
 /*Spring page*/
@@ -99,6 +104,7 @@ body.springback {
 
 .springhomelink:hover {
     background-color: #2C7E00;
+    cursor: url('http://www.i2clipart.com/cliparts/9/c/3/6/clipart-flower-six-red-petals-black-outline-green-leaf-9c36.png'), default;
 }
 
 /*Summer page*/
@@ -120,6 +126,7 @@ body.summerback {
 
 .summerhomelink:hover {
     background-color: #A6A400;
+    cursor: url('http://www.iconsplace.com/icons/preview/orange/sun-256.png'), default;
 }
 
 /*Autumn page*/
@@ -141,4 +148,5 @@ body.autumnback {
 
 .autumnhomelink:hover {
     background-color: #7E2600;
+    cursor: url('http://icons.iconarchive.com/icons/fasticon/nature/128/Drought-Leaf-icon.png'), default;
 }
