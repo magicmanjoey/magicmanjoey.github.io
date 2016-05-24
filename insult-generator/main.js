@@ -14,7 +14,7 @@ var generateButton = {
 getInsults();
 
 function getInsults() {
-    var allInsults = JSON.parse(getJSON());
+    var allInsults = getJSON();
     adj1List = allInsults.insults[0];
     adj2List = allInsults.insults[1];
     nounList = allInsults.insults[2];
@@ -23,12 +23,12 @@ function getInsults() {
 
 function getJSON() {
     xhr = new XMLHttpRequest();
-    xhr.open("GET", "insults.json", false);
+    xhr.open("GET", "insults.json", true);
     xhr.send();
     
     xhr.onreadystatechange = function() {
         if(xhr.readystate == 4 && xhr.status == 200) {
-            return xhr.reponseText;
+            return JSON.parse(xhr.responseText);
         }
     }
 }
