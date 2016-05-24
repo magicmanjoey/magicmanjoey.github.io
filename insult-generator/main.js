@@ -26,11 +26,9 @@ function getJSON() {
     xhr.open("GET", "insults.json", false);
     xhr.send();
     
-    xhr.onreadystatechange = function() {
-        if(xhr.readystate == 4 && xhr.status == 200) {
-            return JSON.parse(xhr.responseText);
-        }
-    }
+    while(!(xhr.readystate == 4 && xhr.status == 200)) {}
+    
+    return JSON.parse(xhr.responseText);
 }
 
 function generateInsult() {
