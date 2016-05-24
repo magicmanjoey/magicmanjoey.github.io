@@ -1,0 +1,47 @@
+html {
+    background-color: #ECC175;
+}
+
+#header {
+    margin-top: 5px;
+    text-align: center;
+}
+
+#header h1 {
+    font-family: 'UnifrakturMaguntia', cursive, sans-serif;
+    font-weight: 700;
+    font-size: 4em;
+}
+
+#header p {
+    font-size: 1.5em;
+}
+
+p {
+    font-family: 'Dancing Script', cursive, sans-serif;
+    font-size: 3em;
+}
+
+#insultarea {
+    text-align: center;
+}
+
+hr {
+    width: 90%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(198, 151, 70, 0.3), rgba(198, 151, 70, 0.95), rgba(198, 151, 70, 0.3));
+}
+
+.button {
+    background-color: #C69746;
+    color: #000000;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3em;
+}
+
+.button:hover {
+    color: #FFFFFF;
+    cursor: pointer;
+}
