@@ -26,7 +26,7 @@ function getJSON() {
     xhr.open("GET", "insults.json", true);
     xhr.send();
     
-    //while(!(xhr.readystate == 4 && xhr.status == 200)) {}
+    while(!(xhr.readystate == 4 && xhr.status == 200)) {}
     
     return JSON.parse(xhr.responseText);
 }
