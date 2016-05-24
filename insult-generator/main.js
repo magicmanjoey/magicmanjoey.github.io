@@ -23,7 +23,7 @@ function getInsults() {
 
 function getJSON() {
     xhr = new XMLHttpRequest();
-    xhr.open("GET", "insults.json", false);
+    xhr.open("GET", "insults.json", true);
     xhr.send();
     
     while(!(xhr.readystate == 4 && xhr.status == 200)) {}
