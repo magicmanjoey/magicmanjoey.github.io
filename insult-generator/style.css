@@ -71,3 +71,7 @@ h3 {
     background-color: #FFDEA5;
     border: none;
 }
+
+#namesmall {
+    font-size: 0.5em;
+}
