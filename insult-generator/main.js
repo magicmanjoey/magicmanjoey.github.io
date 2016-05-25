@@ -47,7 +47,7 @@ function displayInsult(adj1, adj2, noun) {
     nounSpan.innerHTML = noun;
     if(generateButton.hasBeenPressed == false) {
         generateButton.hasBeenPressed = true;
-        generateButton.value = "Another insult!";
+        generateButton.button.value = "Another insult!";
     }
 }
 
