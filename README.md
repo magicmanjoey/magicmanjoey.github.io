@@ -2,4 +2,4 @@
 Contains websites for:
     The Republic of Dignitas,
     The Seasons,
-    Shakespeare Insult Generator
+    Shakespearean Insult Generator
