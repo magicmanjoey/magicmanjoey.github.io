@@ -7,6 +7,14 @@ var adj1Span = document.getElementById("adj1");
 var adj2Span = document.getElementById("adj2");
 var nounSpan = document.getElementById("noun");
 
+var adj1Input = document.getElementById("adj1in");
+var adj2Input = document.getElementById("adj2in");
+var nounInput = document.getElementById("nounin");
+
+var adj1Button = document.getElementById("adj1button");
+var adj2Button = document.getElementById("adj2button");
+var nounButton = document.getElementById("nounbutton");
+
 var generateButton = {
     "button":document.getElementById("generate"),
     "hasBeenPressed":false
@@ -56,4 +64,61 @@ function displayInsult(adj1, adj2, noun) {
 //Returns a number between 0 and 'high'
 function randomNumber(high) {
     return Math.floor(Math.random() * (high + 1));
+}
+
+function addInsult(buttonClicked) {
+    if (buttonClicked.id == "adj1button") {
+        var insultVal = adj1Input.value;
+        if(insultVal != "" && insultVal != null && !(searchArray(adj1List, insultVal))) {
+            adj1List.push(adj1Input.value);
+            adj1Input.value = "Insult added!"; 
+        } else if (searchArray(adj1List, insultVal)) {
+            adj1Input.value = "Insult already exists!";
+        } else {
+            adj1Input.value = "Problem... Try again!";
+        }
+    } else if (buttonClicked.id == "adj2button") {
+        var insultVal = adj2Input.value;
+        if(insultVal != "" && insultVal != null && !(searchArray(adj2List, insultVal))) {
+            adj2List.push(adj2Input.value);
+            adj2Input.value = "Insult added!"; 
+        } else if (searchArray(adj2List, insultVal)) {
+            adj2Input.value = "Insult already exists!";
+        } else {
+            adj2Input.value = "Problem... Try again!";
+        }
+    } else if (buttonClicked.id == "nounbutton") {
+        var insultVal = nounInput.value;
+        if(insultVal != "" && insultVal != null && !(searchArray(nounList, insultVal))) {
+            nounList.push(nounInput.value);
+            nounInput.value = "Insult added!"; 
+        } else if (searchArray(nounList, insultVal)) {
+            nounInput.value = "Insult already exists!";
+        } else {
+            nounInput.value = "Problem... Try again!";
+        }
+    }
+}
+
+function clearInput(input) {
+    if(input.value == "Input insult here!" || input.value == "Insult added!" || input.value == "Problem... Try again!") {
+        input.value = "";
+    }
+}
+
+function keyPressed(event, button) {
+    if (event.which == 13 || event.keyCode == 13) {
+        addInsult(button);
+        return false;
+    }
+    return true;
+}
+
+function searchArray(array, searchTerm) {
+    for (item in array) {
+        if(searchTerm == item) {
+            return true;
+        }
+    }
+    return false;
 }

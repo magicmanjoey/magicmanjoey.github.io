@@ -35,14 +35,14 @@
                 </td>
             </tr>
             <tr>
-                <td><input type="text" class="insultinput" id="adj1in"></td>
-                <td><input type="text" class="insultinput" id="adj2in"></td>
-                <td><input type="text" class="insultinput" id="nounin"></td>
+                <td><input type="text" class="insultinput" id="adj1in" value="Input insult here!" onclick="clearInput(this)" onkeypress="return keyPressed(event, adj1Button)"></td>
+                <td><input type="text" class="insultinput" id="adj2in" value="Input insult here!" onclick="clearInput(this)" onkeypress="return keyPressed(event, adj2Button)"></td>
+                <td><input type="text" class="insultinput" id="nounin" value="Input insult here!" onclick="clearInput(this)" onkeypress="return keyPressed(event, nounButton)"></td>
             </tr>
             <tr>
-                <td><input type="button" class="button" value="Add!" id="adj1button"></td>
-                <td><input type="button" class="button" value="Add!" id="adj2button"></td>
-                <td><input type="button" class="button" value="Add!" id="nounbutton"></td>
+                <td><input type="button" class="button" value="Add!" id="adj1button" onclick="addInsult(this)"></td>
+                <td><input type="button" class="button" value="Add!" id="adj2button" onclick="addInsult(this)"></td>
+                <td><input type="button" class="button" value="Add!" id="nounbutton" onclick="addInsult(this)"></td>
             </tr>
         </table>
     </div>
