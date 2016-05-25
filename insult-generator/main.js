@@ -2,6 +2,7 @@ var adj1List;
 var adj2List;
 var nounList;
 
+var thySpan = document.getElementById("thy");
 var adj1Span = document.getElementById("adj1");
 var adj2Span = document.getElementById("adj2");
 var nounSpan = document.getElementById("noun");
@@ -42,9 +43,10 @@ function generateInsult() {
 }
 
 function displayInsult(adj1, adj2, noun) {
-    adj1Span.innerHTML = adj1;
-    adj2Span.innerHTML = adj2;
-    nounSpan.innerHTML = noun;
+    thySpan.innerHTML = "Thy ";
+    adj1Span.innerHTML = adj1 + ", ";
+    adj2Span.innerHTML = adj2 + " ";
+    nounSpan.innerHTML = noun + "!";
     if(generateButton.hasBeenPressed == false) {
         generateButton.hasBeenPressed = true;
         generateButton.button.value = "Another insult!";
