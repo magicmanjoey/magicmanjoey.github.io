@@ -45,3 +45,29 @@ hr {
     color: #FFFFFF;
     cursor: pointer;
 }
+
+#inputarea table {
+    text-align: center;
+    margin: auto;
+}
+
+#inputarea table td {
+    padding: 0 15px 10px;
+}
+
+#inputarea {
+    text-align: center;
+}
+
+h3 {
+    font-family: 'UnifrakturMaguntia', cursive, sans-serif;
+    font-weight: 500;
+    font-size: 2.5em;
+}
+
+.insultinput {
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive, sans-serif;
+    background-color: #FFDEA5;
+    border: none;
+}

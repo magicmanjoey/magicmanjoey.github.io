@@ -19,6 +19,33 @@
         </p>
         <input class="button" id="generate" type="button" value="Generate insult!" onclick="generateInsult()">
     </div>
+    <hr>
+    <div id="inputarea">
+        <h3>Input your own custom insult parts!</h3>
+        <table>
+            <tr>
+                <td>
+                    <p>Adjective 1</p>
+                </td>
+                <td>
+                    <p>Adjective 2</p>
+                </td>
+                <td>
+                    <p>Noun</p>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="text" class="insultinput" id="adj1in"></td>
+                <td><input type="text" class="insultinput" id="adj2in"></td>
+                <td><input type="text" class="insultinput" id="nounin"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="button" value="Add!" id="adj1button"></td>
+                <td><input type="button" class="button" value="Add!" id="adj2button"></td>
+                <td><input type="button" class="button" value="Add!" id="nounbutton"></td>
+            </tr>
+        </table>
+    </div>
     
     <script src="main.js"></script>
 </body>
