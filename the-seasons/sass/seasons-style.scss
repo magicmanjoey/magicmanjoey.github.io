@@ -31,3 +31,24 @@ $autumncursor: 'http://findicons.com/files/icons/1929/autumn/48/mapleleaf.png';
 $normalbackground: #C7F1FF;
 $darkbluebackground: #66D7FD;
 $bordercolor: #333447;
+
+//Mixins
+@mixin cursor($url) {
+    cursor: url($url), default;
+}
+
+@mixin border($radius, $width, $color: $bordercolor) {
+    border-radius: $radius;
+    box-shadow: 0 0 0 $width $color;
+}
+
+@mixin indent($indent-amount) {
+    text-indent: $indent-amount;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+@mixin center() {
+    text-align: center;
+}
