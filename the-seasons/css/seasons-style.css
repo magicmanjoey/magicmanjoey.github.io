@@ -1,152 +1,90 @@
+.normalback {
+  background-color: #C7F1FF; }
+
 .seasonsbig {
-    border-radius: 20px;
-    box-shadow: 0 0 0 5px #333447;
-}
+  border-radius: 20px;
+  box-shadow: 0 0 0 5px #333447; }
 
 .seasonssmall {
-    border-radius: 10px;
-    box-shadow: 0 0 0 3px #333447;
-}
-
-.normalback {
-    background-color: #C7F1FF;
-}
-
-.dark-blue {
-    background-color: #66D7FD;
-}
-
-.winter {
-    background-color: #D6D6D6;
-}
-
-.spring {
-	background-color: #54CC14;
-}
-
-.summer {
-	background-color: #FFFC19;
-}
-
-.autumn {
-	background-color: #CC4A14;
-}
-
-.indent {
-	text-indent: 3em;
-    margin: 0;
-    padding: 0;
-    border: none;
-}
+  border-radius: 10px;
+  box-shadow: 0 0 0 3px #333447; }
 
 .center {
-    text-align: center;
-}
+  text-align: center; }
 
-.winter:hover {
+.dark-blue {
+  background-color: #66D7FD; }
+
+.winter {
+  background-color: #D6D6D6; }
+  .winter:hover {
     background-color: #AAAAAA;
-    cursor: url('http://www.cloud-migrators.com/joomla/images/cloud.png'), default;
-}
+    cursor: url(#AAAAAA); }
 
-.spring:hover {
+.spring {
+  background-color: #54CC14; }
+  .spring:hover {
     background-color: #3DA108;
-    cursor: url('http://icons.iconarchive.com/icons/fasticon/nature/48/Pink-Flower-icon.png'), default;
-}
+    cursor: url(#3DA108); }
 
-.summer:hover {
+.summer {
+  background-color: #FFFC19; }
+  .summer:hover {
     background-color: #D3D000;
-    cursor: url('http://www.iconsplace.com/icons/preview/orange/sun-48.png'), default;
-}
+    cursor: url(#D3D000); }
 
-.autumn:hover {
-    background-color: #A73504; 
-    cursor: url('http://findicons.com/files/icons/1929/autumn/48/mapleleaf.png'), default;
-}
+.autumn {
+  background-color: #CC4A14; }
+  .autumn:hover {
+    background-color: #A73504;
+    cursor: url(#A73504); }
 
-/*Winter page*/
 body.winterback {
-    background-color: #D6D6D6;
-}
+  background-color: #D6D6D6; }
+  body.winterback .darkwinter {
+    background-color: #AAAAAA; }
+  body.winterback .lightwinter {
+    background-color: #FFFFFF; }
+  body.winterback .winterhomelink {
+    background-color: #AAAAAA; }
+    body.winterback .winterhomelink:hover {
+      background-color: #7D7C7C;
+      cursor: url(#7D7C7C); }
 
-.darkwinter {
-    background-color: #AAAAAA;
-}
-
-.lightwinter {
-    background-color: #FFFFFF;
-}
-
-.winterhomelink {
-    background-color: #AAAAAA;
-}
-
-.winterhomelink:hover {
-    background-color: #7D7C7C;
-    cursor: url('http://www.cloud-migrators.com/joomla/images/cloud.png'), default;
-}
-
-/*Spring page*/
 body.springback {
-    background-color: #54CC14;
-}
+  background-color: #54CC14; }
+  body.springback .darkspring {
+    background-color: #3DA108; }
+  body.springback .lightspring {
+    background-color: #73D53E; }
+  body.springback .springhomelink {
+    background-color: #3DA108; }
+    body.springback .springhomelink:hover {
+      background-color: #2C7E00;
+      cursor: url(#2C7E00); }
 
-.darkspring {
-    background-color: #3DA108;
-}
-
-.lightspring {
-    background-color: #73D53E;
-}
-
-.springhomelink {
-    background-color: #3DA108;
-}
-
-.springhomelink:hover {
-    background-color: #2C7E00;
-    cursor: url('http://icons.iconarchive.com/icons/fasticon/nature/48/Pink-Flower-icon.png'), default;
-}
-
-/*Summer page*/
 body.summerback {
-    background-color: #FFFC19;
-}
+  background-color: #FFFC19; }
+  body.summerback .darksummer {
+    background-color: #D3D000; }
+  body.summerback .lightsummer {
+    background-color: #FFFD46; }
+  body.summerback .summerhomelink {
+    background-color: #D3D000; }
+    body.summerback .summerhomelink:hover {
+      background-color: #A6A400;
+      cursor: url(#A6A400); }
 
-.darksummer {
-    background-color: #D3D000;
-}
-
-.lightsummer {
-    background-color: #FFFD46;
-}
-
-.summerhomelink {
-    background-color: #D3D000;
-}
-
-.summerhomelink:hover {
-    background-color: #A6A400;
-    cursor: url('http://www.iconsplace.com/icons/preview/orange/sun-48.png'), default;
-}
-
-/*Autumn page*/
 body.autumnback {
-    background-color: #CC4A14;
-}
+  background-color: #CC4A14; }
+  body.autumnback .darkautumn {
+    background-color: #A73504; }
+  body.autumnback .lightautumn {
+    background-color: #E86E3A; }
+  body.autumnback .autumnhomelink {
+    background-color: #A73504; }
+    body.autumnback .autumnhomelink:hover {
+      background-color: #7E2600;
+      cursor: url(#7E2600); }
 
-.darkautumn {
-    background-color: #A73504;
-}
-
-.lightautumn {
-    background-color: #E86E3A;
-}
-
-.autumnhomelink {
-    background-color: #A73504;
-}
-
-.autumnhomelink:hover {
-    background-color: #7E2600;
-    cursor: url('http://findicons.com/files/icons/1929/autumn/48/mapleleaf.png'), default;
-}
+/*# sourceMappingURL=seasons-style.css.map */

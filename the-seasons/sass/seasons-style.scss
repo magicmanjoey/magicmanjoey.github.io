@@ -57,9 +57,10 @@ $bordercolor: #333447;
     background-color: $color;
 }
 
-@mixin hover-color($color) {
+@mixin hover-style($color, $url) {
     &:hover {
         @include background($color);
+        cursor: url($color);
     }
 }
 
@@ -85,22 +86,22 @@ $bordercolor: #333447;
 
 .winter {
     @include background($winterbackground);
-    @include hover-color($winterdarkbackground);
+    @include hover-style($winterdarkbackground, $wintercursor);
 }
 
 .spring {
     @include background($springbackground);
-    @include hover-color($springdarkbackground);
+    @include hover-style($springdarkbackground, $springcursor);
 }
 
 .summer {
     @include background($summerbackground);
-    @include hover-color($summerdarkbackground);
+    @include hover-style($summerdarkbackground, $summercursor);
 }
 
 .autumn {
     @include background($autumnbackground);
-    @include hover-color($autumndarkbackground);
+    @include hover-style($autumndarkbackground, $autumncursor);
 }
 
 //Winter page
@@ -114,7 +115,7 @@ body.winterback {
     }
     .winterhomelink {
         @include background($winterdarkbackground);
-        @include hover-color($winterdarkhover);
+        @include hover-style($winterdarkhover, $wintercursor);
     }
 }
 
@@ -129,7 +130,7 @@ body.springback {
     }
     .springhomelink {
         @include background($springdarkbackground);
-        @include hover-color($springdarkhover);
+        @include hover-style($springdarkhover, $springcursor);
     }
 }
 
@@ -144,7 +145,7 @@ body.summerback {
     }
     .summerhomelink {
         @include background($summerdarkbackground);
-        @include hover-color($summerdarkhover);
+        @include hover-style($summerdarkhover, $summercursor);
     }
 }
 
@@ -159,6 +160,6 @@ body.autumnback {
     }
     .autumnhomelink {
         @include background($autumndarkbackground);
-        @include hover-color($autumndarkhover);
+        @include hover-style($autumndarkhover, $autumncursor);
     }
 }

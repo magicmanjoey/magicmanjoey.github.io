@@ -1,0 +1,152 @@
+.seasonsbig {
+    border-radius: 20px;
+    box-shadow: 0 0 0 5px #333447;
+}
+
+.seasonssmall {
+    border-radius: 10px;
+    box-shadow: 0 0 0 3px #333447;
+}
+
+.normalback {
+    background-color: #C7F1FF;
+}
+
+.dark-blue {
+    background-color: #66D7FD;
+}
+
+.winter {
+    background-color: #D6D6D6;
+}
+
+.spring {
+	background-color: #54CC14;
+}
+
+.summer {
+	background-color: #FFFC19;
+}
+
+.autumn {
+	background-color: #CC4A14;
+}
+
+.indent {
+	text-indent: 3em;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.winter:hover {
+    background-color: #AAAAAA;
+    cursor: url('http://www.cloud-migrators.com/joomla/images/cloud.png'), default;
+}
+
+.spring:hover {
+    background-color: #3DA108;
+    cursor: url('http://icons.iconarchive.com/icons/fasticon/nature/48/Pink-Flower-icon.png'), default;
+}
+
+.summer:hover {
+    background-color: #D3D000;
+    cursor: url('http://www.iconsplace.com/icons/preview/orange/sun-48.png'), default;
+}
+
+.autumn:hover {
+    background-color: #A73504; 
+    cursor: url('http://findicons.com/files/icons/1929/autumn/48/mapleleaf.png'), default;
+}
+
+/*Winter page*/
+body.winterback {
+    background-color: #D6D6D6;
+}
+
+.darkwinter {
+    background-color: #AAAAAA;
+}
+
+.lightwinter {
+    background-color: #FFFFFF;
+}
+
+.winterhomelink {
+    background-color: #AAAAAA;
+}
+
+.winterhomelink:hover {
+    background-color: #7D7C7C;
+    cursor: url('http://www.cloud-migrators.com/joomla/images/cloud.png'), default;
+}
+
+/*Spring page*/
+body.springback {
+    background-color: #54CC14;
+}
+
+.darkspring {
+    background-color: #3DA108;
+}
+
+.lightspring {
+    background-color: #73D53E;
+}
+
+.springhomelink {
+    background-color: #3DA108;
+}
+
+.springhomelink:hover {
+    background-color: #2C7E00;
+    cursor: url('http://icons.iconarchive.com/icons/fasticon/nature/48/Pink-Flower-icon.png'), default;
+}
+
+/*Summer page*/
+body.summerback {
+    background-color: #FFFC19;
+}
+
+.darksummer {
+    background-color: #D3D000;
+}
+
+.lightsummer {
+    background-color: #FFFD46;
+}
+
+.summerhomelink {
+    background-color: #D3D000;
+}
+
+.summerhomelink:hover {
+    background-color: #A6A400;
+    cursor: url('http://www.iconsplace.com/icons/preview/orange/sun-48.png'), default;
+}
+
+/*Autumn page*/
+body.autumnback {
+    background-color: #CC4A14;
+}
+
+.darkautumn {
+    background-color: #A73504;
+}
+
+.lightautumn {
+    background-color: #E86E3A;
+}
+
+.autumnhomelink {
+    background-color: #A73504;
+}
+
+.autumnhomelink:hover {
+    background-color: #7E2600;
+    cursor: url('http://findicons.com/files/icons/1929/autumn/48/mapleleaf.png'), default;
+}
