@@ -49,6 +49,116 @@ $bordercolor: #333447;
     border: none;
 }
 
-@mixin center() {
-    text-align: center;
+@mixin text-align($alignment: left) {
+    text-align: $alignment;
+}
+
+@mixin background($color) {
+    background-color: $color;
+}
+
+@mixin hover-color($color) {
+    &:hover {
+        @include background($color);
+    }
+}
+
+.normalback {
+    @include background($normalbackground);
+}
+
+.seasonsbig {
+    @include border(20px, 5px, $bordercolor);
+}
+
+.seasonssmall {
+    @include border(10px, 3px, $bordercolor);
+}
+
+.center {
+    @include text-align(center);
+}
+
+.dark-blue {
+    @include background($darkbluebackground);
+}
+
+.winter {
+    @include background($winterbackground);
+    @include hover-color($winterdarkbackground);
+}
+
+.spring {
+    @include background($springbackground);
+    @include hover-color($springdarkbackground);
+}
+
+.summer {
+    @include background($summerbackground);
+    @include hover-color($summerdarkbackground);
+}
+
+.autumn {
+    @include background($autumnbackground);
+    @include hover-color($autumndarkbackground);
+}
+
+//Winter page
+body.winterback {
+    @include background($winterbackground);
+    .darkwinter {
+        @include background($winterdarkbackground);
+    }
+    .lightwinter {
+        @include background($winterlightbackground);
+    }
+    .winterhomelink {
+        @include background($winterdarkbackground);
+        @include hover-color($winterdarkhover);
+    }
+}
+
+//Spring page
+body.springback {
+    @include background($springbackground);
+    .darkspring {
+        @include background($springdarkbackground);
+    }
+    .lightspring {
+        @include background($springlightbackground);
+    }
+    .springhomelink {
+        @include background($springdarkbackground);
+        @include hover-color($springdarkhover);
+    }
+}
+
+//Summer page
+body.summerback {
+    @include background($summerbackground);
+    .darksummer {
+        @include background($summerdarkbackground);
+    }
+    .lightsummer {
+        @include background($summerlightbackground);
+    }
+    .summerhomelink {
+        @include background($summerdarkbackground);
+        @include hover-color($summerdarkhover);
+    }
+}
+
+//Autumn page
+body.autumnback {
+    @include background($autumnbackground);
+    .darkautumn {
+        @include background($autumndarkbackground);
+    }
+    .lightautumn {
+        @include background($autumnlightbackground);
+    }
+    .autumnhomelink {
+        @include background($autumndarkbackground);
+        @include hover-color($autumndarkhover);
+    }
 }
