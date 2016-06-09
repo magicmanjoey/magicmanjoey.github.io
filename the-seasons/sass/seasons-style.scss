@@ -60,7 +60,7 @@ $bordercolor: #333447;
 @mixin hover-style($color, $url) {
     &:hover {
         @include background($color);
-        cursor: url($color);
+        cursor: url($url);
     }
 }
 
